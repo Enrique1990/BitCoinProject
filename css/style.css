@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+   }
+   
+   body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(179, 80, 80);
+   }
+   
+   h1 {
+    color: white;
+    text-decoration-line: underline;
+   }
+   
+   .container {
+    margin-left: 15%;
+   }
+   
+   table {
+    border:black 2px solid;
+   }
+   
+   table th {
+    background-color:white;
+    border: 1px solid black;
+    color:black;
+   }
+   
+   th,
+   td {
+    padding: 15px;
+    text-align: left;
+   }
+   
+   button {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 45%;
+    background-color: white;
+    color: black;
+    height: 50px;
+    padding: 10px;
+   }
+
+
+   
+   
