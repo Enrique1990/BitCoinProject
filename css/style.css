@@ -1,48 +1,159 @@
-* {
-    box-sizing: border-box;
-   }
+
    
-   body {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(179, 80, 80);
-   }
-   
-   h1 {
-    color: white;
-    text-decoration-line: underline;
-   }
-   
-   .container {
-    margin-left: 15%;
-   }
-   
-   table {
-    border:black 2px solid;
-   }
-   
-   table th {
-    background-color:white;
+body {
+margin: 0;
+padding: 0px;
+background-color: rgb(137, 241, 177);
+/* text-align: center; */
+}
+
+header{
+    border-bottom: 1px solid black;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 15vh;
+}
+
+main{
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.display_price {
+    border:1px solid black;
+    margin: 4vh auto;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.prices{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 1px solid black;
-    color:black;
-   }
-   
-   th,
-   td {
-    padding: 15px;
-    text-align: left;
-   }
-   
-   button {
-    width: 150px;
-    margin-top: 10px;
-    margin-left: 45%;
-    background-color: white;
-    color: black;
-    height: 50px;
-    padding: 10px;
-   }
+    margin: 4vh auto;
+    min-width: 80vw;
+    max-width: 80vw;
+}
+
+.price_container {
+    border: 1px solid rgb(78, 124, 68);
+    background-color: #99eec4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 13vw;
+    max-width: 13vw;
+    min-height: 45vh;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_container > div{
+    flex: 1;
+}
+
+.flag_container {
+    margin: 5vw auto;
+}
+.flag_container img{
+    width: 100%;
+}
 
 
+.change {
+}
+
+.buttons_cont {
+    margin: 4 auto;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+}
+
    
+/* h1 {
+color: rgb(25, 66, 28);
+text-decoration-line: underline;
+}
+    */
+#new  {
+    -moz-box-shadow: 3px 4px 0px 0px #99eec4;
+    -webkit-box-shadow: 3px 4px 0px 0px #99eec4;
+    box-shadow: 3px 4px 0px 0px #99eec4;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #99eec4), color-stop(1, #99eec4));
+    background:-moz-linear-gradient(top, #99eec4 5%, #99eec4 100%);
+    background:-webkit-linear-gradient(top, #99eec4 5%, #99eec4 100%);
+    background:-o-linear-gradient(top, #99eec4 5%, #99eec4 100%);
+    background:-ms-linear-gradient(top, #99eec4 5%, #99eec4 100%);
+    background:linear-gradient(to bottom, #99eec4 5%, #99eec4 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5aad88', endColorstr='#39e3b3',GradientType=0);
+    background-color:#99eec4;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #34c2a6;
+    display:inline-block;
+    cursor:pointer;
+    color:solid black;
+    margin-right: 25%;
+    
+    font-weight:bold;
+    padding:12px 4px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #54ccc2;
+}
+    
+    
+    
+#remove {
+    -moz-box-shadow: 3px 4px 0px 0px #99eec4;
+-webkit-box-shadow: 3px 4px 0px 0px #99eec4;
+box-shadow: 3px 4px 0px 0px #99eec4;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #99eec4), color-stop(1, #99eec4));
+background:-moz-linear-gradient(top, #99eec4 5%, #99eec4 100%);
+background:-webkit-linear-gradient(top,#99eec4 5%, #99eec4 100%);
+background:-o-linear-gradient(top, #99eec4 5%, #99eec4 100%);
+background:-ms-linear-gradient(top, #99eec4 5%, #99eec4 100%);
+background:linear-gradient(to bottom, #99eec4 5%, #99eec4 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5aad88', endColorstr='#39e3b3',GradientType=0);
+background-color:#99eec4;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+border:1px solid #34c2a6;
+display: inline;
+cursor:pointer;
+color:solid black;
+margin-left: 25%;
+
+font-weight:bold;
+padding:12px 4px;
+text-decoration:none;
+text-shadow:0px 1px 0px #54ccc2;
+}
+
+.add {
+    
+    margin: 5vw auto;
+    min-width: 50vw;
+    min-height: 50vh;
+    max-width: 50px;
+    min-height: 50px;
+}
+.news_feed {
+    
+    margin: 5vw auto;
+    min-width: 50vw;
+    min-height: 50vh;
+    max-width: 50vh;
+    min-height: 50vh;
+}
+
+
    
